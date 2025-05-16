@@ -6,8 +6,6 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = function () {
-  //write your code here
-  // Excusas
   let who = [
     "Mi hermana",
     "Mi gato",
@@ -40,7 +38,6 @@ window.onload = function () {
     "hace cinco minutos",
     "hace tres años",
   ];
-  // Función para generar excusas
   function generateExcuse() {
     let randomWho = Math.floor(Math.random() * who.length);
     let randomAction = Math.floor(Math.random() * action.length);
